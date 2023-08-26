@@ -8,9 +8,7 @@ int main() {
     int fatorial = 1;
 
     for(int i = 5; i > 0; i--) {
-
         fatorial *= i;
-
     }
 
     printf("FATORIAL DE 5: %d\n", fatorial);

@@ -9,10 +9,8 @@ int main() {
     int algarismos = 0;
 
     while(numero != 0) {
-
         numero /= 10;
         algarismos++;
-
     }
 
     printf("ALGARISMOS: %d\n", algarismos);

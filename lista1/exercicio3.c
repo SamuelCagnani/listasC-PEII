@@ -9,17 +9,11 @@ int main() {
     float n2 = 5.18;
 
     if(n1 > n2) {
-
-        printf("%.2f eh maior que %.2f\n", n1 , n2);
-        
+        printf("%.2f eh maior que %.2f\n", n1 , n2);  
     } else if(n1 < n2) {
-
         printf("%.2f eh maior que %.2f\n", n2, n1);
-
     } else {
-
         printf("Os valores são iguais!");
-
     }
 
     return 0;

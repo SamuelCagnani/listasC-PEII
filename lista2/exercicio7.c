@@ -10,11 +10,9 @@ int main() {
     float soma = 0;
 
     for(int i = 0; i < 6; i++) {
-
         soma += (numerador / denominador);
         numerador += 2;
         denominador +=3;
-
     }
 
     printf("SOMA: %.2f\n", soma);

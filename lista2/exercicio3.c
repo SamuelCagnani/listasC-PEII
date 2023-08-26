@@ -12,9 +12,7 @@ int main() {
         if((numero % 10 == 5) || (numero % 10 == -5)) {
             printf("%d ", numero);
         }
-
         numero--;
-
     } while (numero >= -100);
 
     return 0;

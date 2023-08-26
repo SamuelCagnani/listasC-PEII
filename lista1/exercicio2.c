@@ -8,13 +8,9 @@ int main() {
     int numero = 7;
 
     if(numero % 2 == 0) {
-
         printf("Eh par!\n");
-
-    } else {
-        
+    } else { 
         printf("Eh impar!\n");
-
     }
 
     return 0;
