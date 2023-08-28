@@ -3,7 +3,10 @@
 
 int main() {
 
-    /*O programa exibe a soma da repetição 1/2 + 3/5 + 5/8 + 7/11 + 9/14 + 11/17.*/
+    /* 7) Crie um arquivo Exercicio7.c e dentro do arquivo crie a função main. Usando alguma
+    estrutura de repetição determine qual é a soma da sequência abaixo:
+
+    1/2 + 3/5 + 5/8 + 7/11 + 9/14 + 11/17 */
 
     float numerador = 1;
     float denominador = 2;

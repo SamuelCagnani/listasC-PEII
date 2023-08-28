@@ -3,7 +3,10 @@
 
 int main() {
 
-    /*O programa compara o valor predefinido com as opções e devolve qual seu mês correspondente.*/
+    /* 5) Crie um arquivo Exercicio5.c e dentro do arquivo crie a função main. Defina uma variável 
+    inteira denominada mes. Com base no valor atribuído a variável imprima o nome do mês 
+    correspondente. Por exemplo, se o valor for igual a 4 então o programa deverá exibir “Abril.”.
+    Se um valor igual a 13 for atribuído a variável, então o programa deverá exibir “Valor inválido.”. */
 
     int mes = 15;
 

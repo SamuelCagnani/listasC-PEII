@@ -3,7 +3,8 @@
 
 int main() {
 
-    /*O programa soma os valores ímpares de 1 a 9 e exiba o valor final da soma.*/
+    /* 4) Crie um arquivo Exercicio4.c e dentro do arquivo crie a função main. Usando alguma
+    estrutura de repetição some os valores ímpares de 1 a 9 e exiba o valor final da soma. */
 
     int soma = 0;
 

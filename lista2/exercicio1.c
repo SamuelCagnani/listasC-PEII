@@ -3,7 +3,8 @@
 
 int main() {
 
-    /*O programa exibe os números ímpares entre 0 e 100.*/
+    /* 1) Crie um arquivo Exercicio1.c e dentro do arquivo crie a função main. Usando a
+    estrutura de repetição for exibir os números ímpares de 0 a 100. */
 
     for(int i = 0; i <= 100; i++) {
         if(i % 2 == 1) {

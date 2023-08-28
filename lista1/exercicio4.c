@@ -3,7 +3,11 @@
 
 int main() {
 
-    /*O programa compara o ddd predefinido as opções disponiveis e responde qual a sua área.*/
+    /* 4) Crie um arquivo Exercicio4.c e dentro do arquivo crie a função main. Defina uma
+    variável inteira denominada ddd. Usando o switch/case e com base no valor que você
+    atribuir a ela, mande o programa exibir o destino com base na tabela. O programa deverá
+    exibir “DDD não cadastrado.” se o valor atribuído à variável não estiver presente 
+    na tabela. */
 
     int ddd = 61;
 

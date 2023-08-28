@@ -3,9 +3,9 @@
 
 int main() {
 
-    /*O programa imprime operações matemáticas básicas com números predefinidos, 
-    vale ressaltar que para maior exatidão nas divisões seria necessário utilizar 
-    o tipo float.*/
+    /* 1) Crie um arquivo Exercicio1.c e dentro do arquivo crie a função main. Defina duas
+    variáveis inteiras e atribua um valor para cada uma delas. Mande o programa exibir o valor da
+    soma, multiplicação, divisão e subtração. */
 
     int n1 = 10;
     int n2 = 10;

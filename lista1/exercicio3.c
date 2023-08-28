@@ -3,7 +3,9 @@
 
 int main() {
 
-    /*O programa compara dois valores predefinidos e responde qual deles é o maior ou se são iguais.*/
+    /* 3) Crie um arquivo Exercicio3.c e dentro do arquivo crie a função main. Defina duas
+    variáveis do tipo float e atribua um valor para cada uma delas. Mande o programa exibir qual
+    delas é maior. */
 
     float n1 = 3.14;
     float n2 = 5.18;

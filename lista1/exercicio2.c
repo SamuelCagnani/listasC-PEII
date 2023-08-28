@@ -3,7 +3,9 @@
 
 int main() {
 
-    /*O programa responde se o valor predeterminado é ímpar ou par.*/
+    /* 2) Crie um arquivo Exercicio2.c e dentro do arquivo crie a função main. Defina uma variável
+    inteira e atribua um valor para ela. Mande o programa exibir “Eh par!” se o valor  atribuído 
+    for par e “Eh impar!”, caso contrário. Use o operador % para verificar se o valor é par. */
 
     int numero = 7;
 
