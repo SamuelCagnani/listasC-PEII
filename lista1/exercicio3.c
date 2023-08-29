@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 3) Crie um arquivo Exercicio3.c e dentro do arquivo crie a função main. Defina duas
-    variáveis do tipo float e atribua um valor para cada uma delas. Mande o programa exibir qual
-    delas é maior. */
+/* 3) Crie um arquivo Exercicio3.c e dentro do arquivo crie a função main. Defina duas
+variáveis do tipo float e atribua um valor para cada uma delas. Mande o programa exibir qual
+delas é maior. */
+
+int main() {
 
     float n1 = 3.14;
     float n2 = 5.18;
@@ -19,5 +23,4 @@ int main() {
     }
 
     return 0;
-
 }

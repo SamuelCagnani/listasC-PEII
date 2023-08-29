@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 5) Crie um arquivo Exercicio5.c e dentro do arquivo crie a função main. Defina uma variável 
-    inteira denominada mes. Com base no valor atribuído a variável imprima o nome do mês 
-    correspondente. Por exemplo, se o valor for igual a 4 então o programa deverá exibir “Abril.”.
-    Se um valor igual a 13 for atribuído a variável, então o programa deverá exibir “Valor inválido.”. */
+/* 5) Crie um arquivo Exercicio5.c e dentro do arquivo crie a função main. Defina uma variável 
+inteira denominada mes. Com base no valor atribuído a variável imprima o nome do mês 
+correspondente. Por exemplo, se o valor for igual a 4 então o programa deverá exibir “Abril.”.
+Se um valor igual a 13 for atribuído a variável, então o programa deverá exibir “Valor inválido.”. */
+
+int main() {
 
     int mes = 15;
 
@@ -54,5 +58,4 @@ int main() {
     }
 
     return 0;
-
 }

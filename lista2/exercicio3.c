@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 3) Crie um arquivo Exercicio3.c e dentro do arquivo crie a função main. Usando a estrutura 
-    de repetição do...while exibir os números que terminam com o algarismo 5 começando em 100 
-    e indo até -100. */
+/* 3) Crie um arquivo Exercicio3.c e dentro do arquivo crie a função main. Usando a estrutura 
+de repetição do...while exibir os números que terminam com o algarismo 5 começando em 100 
+e indo até -100. */
+
+int main() {
 
     int numero = 100;
 
@@ -18,5 +22,4 @@ int main() {
     } while (numero >= -100);
 
     return 0;
-
 }

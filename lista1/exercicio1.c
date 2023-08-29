@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 1) Crie um arquivo Exercicio1.c e dentro do arquivo crie a função main. Defina duas
-    variáveis inteiras e atribua um valor para cada uma delas. Mande o programa exibir o valor da
-    soma, multiplicação, divisão e subtração. */
+/* 1) Crie um arquivo Exercicio1.c e dentro do arquivo crie a função main. Defina duas
+variáveis inteiras e atribua um valor para cada uma delas. Mande o programa exibir o valor da
+soma, multiplicação, divisão e subtração. */
+
+int main() {
 
     int n1 = 10;
     int n2 = 10;
@@ -19,5 +23,4 @@ int main() {
     printf("SUBTRACAO: %d\n", n1 - n2);
 
     return 0;
-
 }

@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 4) A Lanchonete Come Aqui, Tomba Ali possui, em seu cardápio, apenas 3 itens (hamburguer,
-    refrigerante e batata frita). Fazer um algoritmo para ler o nome e a quantidade de itens pedidos
-    por um cliente (sabendo que o hamburguer custa R$ 2,00, o refrigerante custa R$ 1,00 e a batata
-    frita R$ 0,50). O algoritmo deve calcular o valor total do pedido e emitir uma nota fiscal da
-    seguinte maneira: */ 
+/* 4) A Lanchonete Come Aqui, Tomba Ali possui, em seu cardápio, apenas 3 itens (hamburguer,
+refrigerante e batata frita). Fazer um algoritmo para ler o nome e a quantidade de itens pedidos
+por um cliente (sabendo que o hamburguer custa R$ 2,00, o refrigerante custa R$ 1,00 e a batata
+frita R$ 0,50). O algoritmo deve calcular o valor total do pedido e emitir uma nota fiscal da
+seguinte maneira: */ 
+
+int main() {
 
     float hamburguer, refrigerante, batataFrita;
     int menu = 0;

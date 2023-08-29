@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 1) Fazer um algoritmo para receber dois valores numéricos do tipo inteiro e calcular a soma
-    dos dois números. O algoritmo deve mostrar os dois valores lidos e o resultado da operação com
-    respectivas mensagens. */
+/* 1) Fazer um algoritmo para receber dois valores numéricos do tipo inteiro e calcular a soma
+dos dois números. O algoritmo deve mostrar os dois valores lidos e o resultado da operação com
+respectivas mensagens. */
+
+int main() {
 
     int n1, n2;
 

@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 6) Crie um arquivo Exercicio6.c e dentro do arquivo crie a função main. Usando alguma
-    estrutura de repetição determine qual é o fatorial de 5. Sabe-se que o fator de 5 é dado por:
-    5*4*3*2*1. */
+/* 6) Crie um arquivo Exercicio6.c e dentro do arquivo crie a função main. Usando alguma
+estrutura de repetição determine qual é o fatorial de 5. Sabe-se que o fator de 5 é dado por:
+5*4*3*2*1. */
+
+int main() {
 
     int fatorial = 1;
 
@@ -16,5 +20,4 @@ int main() {
     printf("FATORIAL DE 5: %d\n", fatorial);
 
     return 0;
-
 }

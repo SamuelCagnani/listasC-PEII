@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 4) Crie um arquivo Exercicio4.c e dentro do arquivo crie a função main. Usando alguma
-    estrutura de repetição some os valores ímpares de 1 a 9 e exiba o valor final da soma. */
+/* 4) Crie um arquivo Exercicio4.c e dentro do arquivo crie a função main. Usando alguma
+estrutura de repetição some os valores ímpares de 1 a 9 e exiba o valor final da soma. */
+
+int main() {
 
     int soma = 0;
 
@@ -13,9 +17,8 @@ int main() {
             soma += i;
         }
     }
-
+    
     printf("SOMA: %d\n", soma);
 
     return 0;
-
 }

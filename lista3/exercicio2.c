@@ -2,11 +2,15 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main() {
+/*
+* Autor: Samuel de Mello Cagnani
+*/
 
-    /* 2) Fazer um algoritmo para ler dois valores correspondentes aos lados de um retângulo, calcular
-    a área, o perímetro e a diagonal da figura e mostrar os valores lidos e os calculados com respectivas
-    mensagens. */
+/* 2) Fazer um algoritmo para ler dois valores correspondentes aos lados de um retângulo, calcular
+a área, o perímetro e a diagonal da figura e mostrar os valores lidos e os calculados com respectivas
+mensagens. */
+
+int main() {
 
     float lado1, lado2;
 

@@ -2,22 +2,27 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+* Autor: Samuel de Mello Cagnani
+*/
+
+/* 3) Os alunos da Escola Fundamental São Jorge submetem-se a três avaliações anuais em cada
+disciplina. Fazer um algoritmo para ler o nome da disciplina, o nome do aluno e as notas obtidas
+nas avaliações e, em seguida, calcular a nota final do aluno, sabendo que a primeira avaliação
+tem peso 2; a segunda tem peso 3 e a terceira tem peso 5. Os resultados devem ser mostrados da
+seguinte maneira:
+
+    Escola de Ensino Fundamental São Jorge
+    Resultado Final de aa-----------aa (nome da disciplina)
+    Aluno: aa-----------aa (nome do aluno)
+    Primeira avaliação: xx.xx
+    Segunda avaliação: xx.xx
+    Terceira avaliação: xx.xx
+    Nota final: xx.xx 
+*/
+
 int main() {
 
-    /* 3) Os alunos da Escola Fundamental São Jorge submetem-se a três avaliações anuais em cada
-    disciplina. Fazer um algoritmo para ler o nome da disciplina, o nome do aluno e as notas obtidas
-    nas avaliações e, em seguida, calcular a nota final do aluno, sabendo que a primeira avaliação
-    tem peso 2; a segunda tem peso 3 e a terceira tem peso 5. Os resultados devem ser mostrados da
-    seguinte maneira:
-
-        Escola de Ensino Fundamental São Jorge
-        Resultado Final de aa-----------aa (nome da disciplina)
-        Aluno: aa-----------aa (nome do aluno)
-        Primeira avaliação: xx.xx
-        Segunda avaliação: xx.xx
-        Terceira avaliação: xx.xx
-        Nota final: xx.xx 
-    */
 
     char disciplina[50] = {"\0"};
     char aluno[50] = {"\0"};
