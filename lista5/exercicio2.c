@@ -10,6 +10,21 @@ usuário). */
 
 int main() {
 
+    int N = 0;
+
+    printf("Digite um numero para determinar seus divisores: ");
+    scanf("%d", &N);
+
+    printf("NUMERO: %d\n", N);
+    printf("DIVISORES:");
+
+    for(int i = 1; i <= N; i++) 
+    {
+        if(N % i == 0) {
+            printf(" %d", i);
+        }
+    }
+    printf("\n");
 
     return 0;
 }

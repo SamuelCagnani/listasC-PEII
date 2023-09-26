@@ -10,6 +10,25 @@ o maior deles. */
 
 int main() {
 
+    int NUM;
+    int maior = 0;
+    int aux;
+
+    printf("Digite quantos numeros voce desja ler: ");
+    scanf("%d", &NUM);
+
+    for(int i = 0; i < NUM; i++) 
+    {
+        printf("Numero %d: ", i + 1);
+        scanf("%d", &aux);
+
+        if(maior < aux) 
+        {
+            maior = aux;
+        }
+    }
+
+    printf("Maior valor: %d\n", maior);
 
     return 0;
 }
