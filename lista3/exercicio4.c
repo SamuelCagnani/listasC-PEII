@@ -53,7 +53,8 @@ int main() {
         }
     } while (menu != 0 && menu != 4);
 
-    if(menu == 4) {
+    if(menu == 4) 
+    {
 
         printf("\nLanchonete Come Aqui, Tomba Ali");
         printf("\n| Item |  Descricao  | Qtde| Valor");
