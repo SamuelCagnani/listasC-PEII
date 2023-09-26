@@ -10,8 +10,10 @@ estrutura de repetição for exibir os números ímpares de 0 a 100. */
 
 int main() {
 
-    for(int i = 0; i <= 100; i++) {
-        if(i % 2 == 1) {
+    for(int i = 0; i <= 100; i++) 
+    {
+        if(i % 2 == 1) 
+        {
             printf("%d", i);
         } 
         printf(" ");
