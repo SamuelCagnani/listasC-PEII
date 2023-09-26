@@ -22,10 +22,12 @@ int main() {
     printf("\nDigite o salario do trabalhador:");
     scanf("%f", &salario);
 
-    if(salario <= 12000) {
+    if(salario <= 12000) 
+    {
         printf("\nSalario: R$%.2f", salario);
         printf("\nImposto devido: R$%.2f", salario * 0.1);
-    } else {
+    } else 
+    {
         printf("\nSalario: R$%.2f", salario);
         printf("\nImposto devido: R$%.2f", 1200 + ((salario - 12000) * 0.25));
     }
