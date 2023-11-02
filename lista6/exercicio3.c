@@ -11,6 +11,8 @@
 com os elementos das posições pares trocados com os das posições ímpares. Imprimir o
 vetor lido e o gerado. */
 
+int main() {
+
 
     return 0;
 }
